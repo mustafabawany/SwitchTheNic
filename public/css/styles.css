@@ -1,0 +1,152 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', cursive;
+}
+
+/* Home Styling */
+
+nav{
+    background-color: rgba(0, 0, 0, 0.904);
+    padding: 7% 15%;
+    margin-bottom: 2%;
+}
+
+.glassmorphic{
+    background: white;
+    text-align: center;
+    width: 90%;
+    margin: auto;
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 4px );
+    -webkit-backdrop-filter: blur( 4px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+
+/* E-Liquids Styling */
+
+#e-liquids{
+    padding: 7% 15%;
+}
+
+#e-liquids h2{
+    text-align: center;
+    font-weight: bolder;
+}
+
+#e-liquids p{
+    margin-top: 2%;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 1.5rem;
+}
+
+#e-liquids a{
+    text-decoration: none;
+    color: black;
+}
+
+hr{
+    width: 5%;
+    margin: auto;
+}
+
+#e-liquids .row{
+    margin-top: 5%;
+}
+
+/* Devices Styling */
+
+#devices{
+    padding: 7% 15%;
+    background-image: url('/SwitchTheNic/public/images/abc.jpeg');
+    background-size: cover;
+}
+
+.sub-devices{
+    text-align: center;
+    margin: auto;
+    box-shadow: 0 8px 32px 0 rgba(245, 180, 39, 0.37);
+    backdrop-filter: blur( 4px );
+    -webkit-backdrop-filter: blur( 4px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+.sub-devices h2{
+    text-align: center;
+    margin-top: 2%;
+    font-weight: bolder;
+    color: white;
+}
+
+.sub-devices hr{
+    color: white;
+}
+#devices p{
+    margin-top: 2%;
+    text-align: center;
+    color: white;
+}
+
+#devices a{
+    text-decoration: none;
+    color: black;
+}
+#devices hr{
+    width: 5%;
+    margin: auto;
+}
+
+#devices .row{
+    margin-top: 5%;
+}
+
+
+/* Accessories Styling */
+
+#accessories{
+    padding: 7% 15%;
+}
+
+#accessories h2{
+    text-align: center;
+    margin-top: 2%;
+    font-weight: bolder;
+    color: black;
+}
+
+#accessories p{
+    margin-top: 2%;
+    text-align: center;
+    color: black;
+}
+
+#accessories a{
+    text-decoration: none;
+    color: black;
+}
+
+#accessories .row{
+    margin-top: 5%;
+}
+
+
+/* Footer Styling */
+
+.footer-icon{
+    margin: 0.5rem;
+}
+
+#footer{
+    background-color: #1c1f23;
+    text-align: center;
+    padding: 2%;
+    color: white;
+}
+
+#footer p{
+    padding-top: 1rem;
+    font-family:'Montserrat', sans-serif ;
+    font-weight: lighter;
+}
