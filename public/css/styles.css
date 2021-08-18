@@ -4,6 +4,12 @@
     font-family: 'Montserrat', cursive;
 }
 
+
+a{
+    text-decoration: none;
+}
+
+
 /* Home Styling */
 
 nav{
@@ -24,6 +30,9 @@ nav{
     border: 1px solid rgba( 255, 255, 255, 0.18 );
 }
 
+.mobile-version{
+    display: none;
+}
 /* E-Liquids Styling */
 
 #e-liquids{
@@ -60,8 +69,9 @@ hr{
 
 #devices{
     padding: 7% 15%;
-    background-image: url('/SwitchTheNic/public/images/abc.jpeg');
+    background-image: url('/public/images/abc.jpeg');
     background-size: cover;
+    margin-top: 10%;
 }
 
 .sub-devices{
@@ -132,6 +142,51 @@ hr{
 }
 
 
+/* Contact Styling */
+
+#contact{
+    padding: 7% 10%;
+    background-color: #1c1f23;
+    text-align: center;
+    color: white;
+}
+
+#contact i{
+    text-decoration: none;
+    color: white;
+    font-size: x-large;
+
+}
+
+.icon {
+    margin-top: -15%;
+    margin-left: -10%;
+    margin-right: 10%;
+}
+
+
+#contact .row{
+    margin-top: 10%;
+}
+
+#contact i:hover{
+    color: #1c1f23;
+}
+
+.subscribe{
+    text-align: center;
+    margin: auto;
+    box-shadow: 0 8px 32px 0 rgba(245, 180, 39, 0.37);
+    backdrop-filter: blur( 4px );
+    -webkit-backdrop-filter: blur( 4px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    padding: 5%;
+}
+
+.btn{
+    margin-top: 4%;
+}
 /* Footer Styling */
 
 .footer-icon{
@@ -139,14 +194,42 @@ hr{
 }
 
 #footer{
-    background-color: #1c1f23;
+    background-color: #E48D0A;
     text-align: center;
     padding: 2%;
     color: white;
 }
 
+#footer i{
+    color: white;
+}
+
+#footer i:hover{
+    color: orange;
+}
 #footer p{
     padding-top: 1rem;
     font-family:'Montserrat', sans-serif ;
     font-weight: lighter;
+}
+
+@media (max-width: 1028px){
+    
+    .carousel{
+        display: none;
+    }
+
+    .pods,.liquid-item{
+        margin-top: 10%;
+    }
+    
+    .mobile-version{
+        display: block;
+        text-align: center;
+        margin: 10% auto;
+    }
+    
+    #footer i{
+        margin-top: 10%;
+    }
 }

@@ -20,7 +20,7 @@
   <meta charset="utf-8">
   <title>Switch The Nic</title>
 
-  <link rel="stylesheet" href="/SwitchTheNic/public/css/styles.css">
+  <link rel="stylesheet" href="public/css/styles.css">
   
 </head>
 
@@ -41,13 +41,13 @@
 
         <ul class="navbar-nav ms-auto">
           <li class="nav-item">
-            <a class="nav-link" href="#e-liquids">E-Liquids</a>
-          </li>
-          <li class="nav-item">
             <a class="nav-link" href="#devices">Devices</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#accessories">Accessories</a>
+            <a class="nav-link" href="#e-liquids">E-Liquids</a>
+          </li>
+          <li class="nav-item">
+            <!-- <a class="nav-link" href="#accessories">Accessories</a> -->
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#contact">Contact</a>
@@ -56,6 +56,8 @@
     </nav>
 
     <!-- Carousel -->
+
+    <!-- For Desktop Devices -->
 
     <div class="glassmorphic">
       <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
@@ -86,28 +88,17 @@
         </button>
       </div>
     </div>
-  </section>
 
-  <!-- E-LIQUIDS -->
-
-  <section id="e-liquids">
-    <h2>E-LIQUIDS</h2>
-    <hr>
-    <div class="row">
-      <div class="col-lg-6">
-        <a href="#">
-          <img class="glassmorphic" src="public/images/salt.jpg" alt="Salt-Nicotine">
-          <p>Salt Nicotine</p>
-        </a>
+    <div class="mobile-version row">
+      <div class="col-lg-12">
+        <img src="/public/images/cover3.jpeg">
       </div>
-      <div class="col-lg-6">
-        <a href="#">
-          <img class="glassmorphic"  src="public/images/freebase.jpg" alt="Free-Base-Nicotine">
-          <p>Freebase Nicotine</p>
-        </a>
-      </div>
+      
     </div>
   </section>
+
+  
+  
 
   <!-- DEVICES -->
 
@@ -118,31 +109,31 @@
       <div class="row">
         <div class="col-lg-3">
           <a href="#">
-            <img class="glassmorphic" src="public/images/device1.jpeg" alt="VOOPOO Drag X">
+            <img class="glassmorphic pods" src="public/images/device1.jpeg" alt="VOOPOO Drag X">
             <p>VOOPOO Drag X 80W Pod Mod Kit</p>
           </a>
         </div>
         <div class="col-lg-3">
           <a href="#">
-            <img class="glassmorphic"  src="public/images/device2.jpeg" alt="UWELL Caliburn G">
+            <img class="glassmorphic pods"  src="public/images/device2.jpeg" alt="UWELL Caliburn G">
             <p>UWELL Caliburn G 18W Pod System</p>
           </a>
         </div>
         <div class="col-lg-3">
           <a href="#">
-            <img class="glassmorphic"  src="public/images/device3.jpeg" alt="UWELL Caliburn Koko">
+            <img class="glassmorphic pods"  src="public/images/device3.jpeg" alt="UWELL Caliburn Koko">
             <p>UWELL Caliburn Koko Prime 15W Pod System</p>
           </a>
         </div>
         <div class="col-lg-3">
           <a href="#">
-            <img class="glassmorphic"  src="public/images/device4.jpeg" alt="Vaporesso XROS">
+            <img class="glassmorphic pods"  src="public/images/device4.jpeg" alt="Vaporesso XROS">
             <p>Vaporesso XROS 16W Pod System</p>
           </a>
         </div>
         <div class="col-lg-3">
           <a href="#">
-            <img class="glassmorphic"  src="public/images/device5.jpeg" alt="UWELL Caliburn">
+            <img class="glassmorphic pods"  src="public/images/device5.jpeg" alt="UWELL Caliburn">
             <p>UWELL Caliburn 11W Pod System</p>
           </a>
         </div>
@@ -150,9 +141,30 @@
     </div>
   </section>
 
-  <!-- Accessories -->
+  <!-- E-LIQUIDS -->
 
-  <section id="accessories">
+  <section id="e-liquids">
+    <h2>E-LIQUIDS</h2>
+    <hr>
+    <div class="row">
+      <div class="col-lg-6">
+        <a href="#">
+          <img class="glassmorphic liquid-item" src="public/images/salt.jpg" alt="Salt-Nicotine">
+          <p>Salt Nicotine</p>
+        </a>
+      </div>
+      <div class="col-lg-6">
+        <a href="#">
+          <img class="glassmorphic liquid-item"  src="public/images/freebase.jpg" alt="Free-Base-Nicotine">
+          <p>Freebase Nicotine</p>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ACCESSORIES -->
+
+  <!-- <section id="accessories">
     
     <h2>ACCESSORIES</h2>
     <hr>
@@ -164,15 +176,38 @@
         </a>
       </div>
     </div>
-    
+  </section> -->
+
+
+  <!-- CONTACT -->
+
+  <section id="contact">
+    <h2>CONTACT US</h2>
+    <hr>
+    <form class="row">
+      <div class="col-lg-6 icon">
+        <img src="public/images/contact.png">
+        <a><i class="footer-icon fab fa-twitter"></i></a>
+        <a href="https://www.facebook.com/switchthenic"><i class="footer-icon fab fa-facebook-f"></i></a>
+        <a href="https://www.instagram.com/switchthenic/"><i class="footer-icon fab fa-instagram"></i></a>
+        <a href="switchthenic@gmail.com"><i class="footer-icon fas fa-envelope"></i></a>
+      </div>
+      <div class="col-lg-6 subscribe">
+        <h3>Subscribe to our News Letter</h3>
+        <label for="email" class="visually-hidden">Email</label>
+        <input type="email" class="form-control" id="email" placeholder="Email">
+        <button type="submit" class="btn btn-warning mb-3">Subscribe</button>
+      </div>
+    </form>
   </section>
 
+  <!-- FOOTER -->
 
   <footer id="footer">
-    <i class="footer-icon fab fa-twitter"></i>
-    <i class="footer-icon fab fa-facebook-f"></i>
-    <i class="footer-icon fab fa-instagram"></i>
-    <i class="footer-icon fas fa-envelope"></i>
+    <a><i class="footer-icon fab fa-twitter"></i></a>
+    <a href="https://www.facebook.com/switchthenic"><i class="footer-icon fab fa-facebook-f"></i></a>
+    <a href="https://www.instagram.com/switchthenic/"><i class="footer-icon fab fa-instagram"></i></a>
+    <a href="switchthenic@gmail.com"><i class="footer-icon fas fa-envelope"></i></a>
     <p>© Copyright 2021 | Switch The Nic</p>
 
   </footer>
