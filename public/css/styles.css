@@ -154,7 +154,7 @@ hr{
 #contact i{
     text-decoration: none;
     color: white;
-    font-size: x-large;
+    font-size: xx-large;
 
 }
 
@@ -170,7 +170,7 @@ hr{
 }
 
 #contact i:hover{
-    color: #1c1f23;
+    color: orange;
 }
 
 .subscribe{
@@ -227,6 +227,17 @@ hr{
         display: block;
         text-align: center;
         margin: 10% auto;
+    }
+
+    .liquid-item{
+        margin-left: 5%;
+    }
+    .contact-icon{
+        margin-bottom: 10%;
+    }
+
+    .contact-items{
+        margin-left: 20%;
     }
     
     #footer i{
