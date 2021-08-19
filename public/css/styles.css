@@ -69,7 +69,7 @@ hr{
 
 #devices{
     padding: 7% 15%;
-    background-image: url('/public/images/abc.jpeg');
+    background-image: url("/public/images/abc.jpeg");
     background-size: cover;
     margin-top: 10%;
 }
