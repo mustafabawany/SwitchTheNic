@@ -20,7 +20,7 @@
   <meta charset="utf-8">
   <title>Switch The Nic</title>
 
-  <link rel="stylesheet" href="public/css/styles.css">
+  <link rel="stylesheet" href="css/styles.css">
   
 </head>
 
@@ -31,7 +31,7 @@
     <!-- Nav Bar -->
 
     <nav class="navbar navbar-expand-lg navbar-dark">
-      <a class="navbar-brand" href="#"><img src="public/images/Logo1.png" alt="Logo"></a>
+      <a class="navbar-brand" href="#"><img src="images/Logo1.png" alt="Logo"></a>
      
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -39,6 +39,9 @@
       
       <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
         <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#">Home</a>
+          </li>
           <li class="nav-item">
             <a class="nav-link" href="#devices">Devices</a>
           </li>
@@ -63,19 +66,19 @@
       <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <img src="public/images/banner4.jpeg" class="d-block w-100" alt="...">
+            <img src="images/banner4.jpeg" class="d-block w-100" alt="...">
           </div>
           <div class="carousel-item">
-            <img src="public/images/banner1.jpeg" class="d-block w-100" alt="...">
+            <img src="images/banner1.jpeg" class="d-block w-100" alt="...">
           </div>
           <div class="carousel-item">
-            <img src="public/images/banner2.jpeg" class="d-block w-100" alt="...">
+            <img src="images/banner2.jpeg" class="d-block w-100" alt="...">
           </div>
           <div class="carousel-item">
-            <img src="public/images/banner3.jpeg" class="d-block w-100" alt="...">
+            <img src="images/banner3.jpeg" class="d-block w-100" alt="...">
           </div>
           <div class="carousel-item">
-            <img src="public/images/banner5.jpeg" class="d-block w-100" alt="...">
+            <img src="images/banner5.jpeg" class="d-block w-100" alt="...">
           </div>
         </div>
         <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
@@ -91,7 +94,7 @@
 
     <div class="mobile-version row">
       <div class="col-lg-12">
-        <img src="/public/images/cover3.jpeg" alt="Cover">
+        <img src="images/cover3.jpeg" alt="Cover">
       </div>
       
     </div>
@@ -109,31 +112,31 @@
       <div class="row">
         <div class="col-lg-3">
           <a href="#">
-            <img class="glassmorphic pods" src="public/images/device1.jpeg" alt="VOOPOO Drag X">
+            <img class="glassmorphic pods" src="images/device1.jpeg" alt="VOOPOO Drag X">
             <p>VOOPOO Drag X 80W Pod Mod Kit</p>
           </a>
         </div>
         <div class="col-lg-3">
           <a href="#">
-            <img class="glassmorphic pods"  src="public/images/device2.jpeg" alt="UWELL Caliburn G">
+            <img class="glassmorphic pods"  src="images/device2.jpeg" alt="UWELL Caliburn G">
             <p>UWELL Caliburn G 18W Pod System</p>
           </a>
         </div>
         <div class="col-lg-3">
           <a href="#">
-            <img class="glassmorphic pods"  src="public/images/device3.jpeg" alt="UWELL Caliburn Koko">
+            <img class="glassmorphic pods"  src="images/device3.jpeg" alt="UWELL Caliburn Koko">
             <p>UWELL Caliburn Koko Prime 15W Pod System</p>
           </a>
         </div>
         <div class="col-lg-3">
           <a href="#">
-            <img class="glassmorphic pods"  src="public/images/device4.jpeg" alt="Vaporesso XROS">
+            <img class="glassmorphic pods"  src="images/device4.jpeg" alt="Vaporesso XROS">
             <p>Vaporesso XROS 16W Pod System</p>
           </a>
         </div>
         <div class="col-lg-3">
           <a href="#">
-            <img class="glassmorphic pods"  src="public/images/device5.jpeg" alt="UWELL Caliburn">
+            <img class="glassmorphic pods"  src="images/device5.jpeg" alt="UWELL Caliburn">
             <p>UWELL Caliburn 11W Pod System</p>
           </a>
         </div>
@@ -149,13 +152,13 @@
     <div class="row">
       <div class="col-lg-6">
         <a href="#">
-          <img class="glassmorphic liquid-item" src="public/images/salt.jpg" alt="Salt-Nicotine">
+          <img class="glassmorphic liquid-item" src="images/salt.jpg" alt="Salt-Nicotine">
           <p>Salt Nicotine</p>
         </a>
       </div>
       <div class="col-lg-6">
         <a href="#">
-          <img class="glassmorphic liquid-item"  src="public/images/freebase.jpg" alt="Free-Base-Nicotine">
+          <img class="glassmorphic liquid-item"  src="images/freebase.jpg" alt="Free-Base-Nicotine">
           <p>Freebase Nicotine</p>
         </a>
       </div>
@@ -184,11 +187,11 @@
   <section id="contact">
     <h2>CONTACT US</h2>
     <hr>
-    <form class="row">
+    <div class="row">
       <div class="col-lg-6 icon">
         <div class="row contact-items">
           <div class="col-lg-12">
-            <img src="public/images/contact.png" alt="Logo">
+            <img src="images/contact.png" alt="Logo">
           </div>
           <div class="col-lg-12 contact-icon">
             <a><i class="footer-icon fab fa-twitter"></i></a>
@@ -199,12 +202,16 @@
         </div>
       </div>
       <div class="col-lg-6 subscribe">
-        <h3>Subscribe to our News Letter</h3>
-        <label for="email" class="visually-hidden">Email</label>
-        <input type="email" class="form-control" id="email" placeholder="Email">
-        <button type="submit" class="btn btn-warning mb-3">Subscribe</button>
+        <h3>Join Our Community</h3>
+        <p>Subscribe to get notified about the latest updates</p>
+        <form class="row" action="/" method="POST">
+          <input name="fname" type="text" class="form-control" id="fname" placeholder="First Name">
+          <input name="lname" type="text" class="form-control" id="lname" placeholder="Last Name">
+          <input name="email" type="email" class="form-control" id="email" placeholder="Email">
+          <button type="submit" class="btn btn-warning mb-3">Subscribe</button>
+        </form>
       </div>
-    </form>
+    </div>
   </section>
 
   <!-- FOOTER -->
