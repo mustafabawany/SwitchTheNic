@@ -12,6 +12,8 @@
   <li>MongoDB (to be implemented) </li>
   </ul>
   
+# API's
+<ul><li>MailCHimp</li></ul>
   
 # Hosting
 <ul><li>Heroku</li></ul>
