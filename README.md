@@ -13,7 +13,7 @@
   </ul>
   
 # API's
-<ul><li>MailCHimp</li></ul>
+<ul><li>MailChimp</li></ul>
   
 # Hosting
 <ul><li>Heroku</li></ul>
